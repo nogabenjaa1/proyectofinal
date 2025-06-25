@@ -1,0 +1,7 @@
+| Método | URL                 | Headers                          | Body                        | Uso                       |
+| ------ | ------------------- | -------------------------------- | --------------------------- | ------------------------- |
+| GET    | `/api/recurso/`     | `Accept: application/json`       | Ninguno                     | Obtener datos             |
+| POST   | `/api/recurso/`     | `Content-Type: application/json` | JSON con datos              | Crear nuevo recurso       |
+| PUT    | `/api/recurso/{id}` | `Content-Type: application/json` | JSON completo del recurso   | Reemplazar recurso entero |
+| PATCH  | `/api/recurso/{id}` | `Content-Type: application/json` | JSON con campos a modificar | Modificar parcialmente    |
+| DELETE | `/api/recurso/{id}` | `Accept: application/json`       | Ninguno                     | Borrar recurso            |
