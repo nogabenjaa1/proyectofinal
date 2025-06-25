@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 from collections import defaultdict
 
-API_URL = "http://localhost:8000"
+API_URL = "https://api-backend-g8eg.onrender.com"
 
 st.title("🎓 Sistema de Gestión Académica")
 
